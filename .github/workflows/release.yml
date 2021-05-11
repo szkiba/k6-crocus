@@ -40,7 +40,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@3
+        uses: elgohr/Publish-Docker-Github-Action@3.04
         with:
           name: szkiba/k6-crocus
           username: ${{ secrets.DOCKERHUB_USERNAME }}
