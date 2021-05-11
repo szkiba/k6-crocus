@@ -1,4 +1,4 @@
-K6 := latest
+K6 := v0.31.1
 PLATFORMS := linux/amd64 windows/amd64 darwin/amd64
 EXTENSIONS := xk6-prometheus@v0.1.1 xk6-crypto@v0.1.1 xk6-jose@v0.1.0
 VERSION ?= snapshot
