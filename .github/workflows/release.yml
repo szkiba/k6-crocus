@@ -36,7 +36,7 @@ jobs:
         uses: nuuday/github-changelog-action@v1.0.0
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          next_version: ${{ steps.get_version.outputs.VERSION }}
+          next_version: unreleased
 
       - name: Release
         uses: softprops/action-gh-release@v1
