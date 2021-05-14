@@ -27,7 +27,7 @@ jobs:
 
       - name: Build
         run: |
-          go install github.com/k6io/xk6/cmd/xk6@v0.3.0
+          go install github.com/k6io/xk6/cmd/xk6
           make VERSION=$VERSION build
         env:
           VERSION: ${{ steps.get_version.outputs.VERSION }}

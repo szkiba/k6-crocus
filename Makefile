@@ -1,8 +1,8 @@
-K6 := v0.31.1
+K6 := v0.32.0
 PLATFORMS := linux/amd64 windows/amd64 darwin/amd64
-EXTENSIONS := xk6-prometheus@v0.1.1 xk6-crypto@v0.1.1 xk6-jose@v0.1.0 \
-  xk6-yaml@v0.1.0 xk6-toml@v0.1.0 xk6-csv@v0.1.0 \
-  xk6-ansible-vault@v0.1.0
+EXTENSIONS := xk6-prometheus@v0.1.2 xk6-crypto@v0.1.2 xk6-jose@v0.1.1 \
+  xk6-yaml@v0.1.1 xk6-toml@v0.1.1 xk6-csv@v0.1.1 \
+  xk6-ansible-vault@v0.1.1
 VERSION ?= snapshot
 
 .PHONY: build $(PLATFORMS)
