@@ -2,7 +2,7 @@
 
 Custom k6 build with [xk6-jose](https://github.com/szkiba/xk6-jose), [xk6-crypto](https://github.com/szkiba/xk6-crypto), [xk6-yaml](https://github.com/szkiba/xk6-yaml), [xk6-toml](https://github.com/szkiba/xk6-toml), [xk6-csv](https://github.com/szkiba/xk6-csv), [xk6-ansible-vault](https://github.com/szkiba/xk6-ansible-vault) and [xk6-prometheus](https://github.com/szkiba/xk6-prometheus).
 
-Built using [xk6](https://github.com/k6io/xk6). This is not an official [k6](https://k6.io) build. The main reason for creating this distribution is to make it easy to use the xk6 extensions mentoined above.
+Built using [xk6bundler](https://github.com/szkiba/xk6bundler). This is not an official [k6](https://k6.io) build. The main reason for creating this distribution is to make it easy to use the xk6 extensions mentoined above.
 
 ## Features:
 
