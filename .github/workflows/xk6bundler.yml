@@ -20,7 +20,7 @@ jobs:
           with: |
             github.com/szkiba/xk6-prometheus@v0.1.2
             github.com/szkiba/xk6-cache@v0.1.0
-            github.com/szkiba/xk6-mock@v0.1.0
+            github.com/szkiba/xk6-mock@v0.1.1
             github.com/szkiba/xk6-crypto@v0.1.2
             github.com/szkiba/xk6-jose@v0.1.1
             github.com/szkiba/xk6-yaml@v0.1.1
