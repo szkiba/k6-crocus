@@ -1,6 +1,6 @@
 # k6-crocus
 
-Custom k6 build with [xk6-cache](https://github.com/szkiba/xk6-cache), [xk6-dotenv](https://github.com/szkiba/xk6-dotenv), [xk6-mock](https://github.com/szkiba/xk6-mock), [xk6-jose](https://github.com/szkiba/xk6-jose), [xk6-crypto](https://github.com/szkiba/xk6-crypto), [xk6-yaml](https://github.com/szkiba/xk6-yaml), [xk6-toml](https://github.com/szkiba/xk6-toml), [xk6-csv](https://github.com/szkiba/xk6-csv), [xk6-ansible-vault](https://github.com/szkiba/xk6-ansible-vault) and [xk6-prometheus](https://github.com/szkiba/xk6-prometheus).
+Custom k6 build with [xk6-cache](https://github.com/szkiba/xk6-cache), [xk6-dotenv](https://github.com/szkiba/xk6-dotenv), [xk6-mock](https://github.com/szkiba/xk6-mock), [xk6-faker](https://github.com/szkiba/xk6-faker), [xk6-jose](https://github.com/szkiba/xk6-jose), [xk6-crypto](https://github.com/szkiba/xk6-crypto), [xk6-yaml](https://github.com/szkiba/xk6-yaml), [xk6-toml](https://github.com/szkiba/xk6-toml), [xk6-csv](https://github.com/szkiba/xk6-csv), [xk6-ansible-vault](https://github.com/szkiba/xk6-ansible-vault) and [xk6-prometheus](https://github.com/szkiba/xk6-prometheus).
 
 Built using [xk6bundler](https://github.com/szkiba/xk6bundler). This is not an official [k6](https://k6.io) build. The main reason for creating this distribution is to make it easy to use the xk6 extensions mentoined above.
 
@@ -9,6 +9,7 @@ Built using [xk6bundler](https://github.com/szkiba/xk6bundler). This is not an o
 - [xk6-cache](https://github.com/szkiba/xk6-cache) A k6 extension enables vendoring remote HTTP modules to single source control friendly file.
 - [xk6-dotenv](https://github.com/szkiba/xk6-dotenv) A k6 extension that loads env vars from a .env file.
 - [xk6-mock](https://github.com/szkiba/xk6-mock) A k6 extension for mocking HTTP(S) servers during test development.
+- [xk6-faker](https://github.com/szkiba/xk6-faker) A k6 extension for random fake data generation.
 - [xk6-jose](https://github.com/szkiba/xk6-jose) A k6 extension for Javascript Object Signing and Encryption (JOSE) standards.
   - JSON Web Token (JWT) support
   - JSON Web Key (JWK) support
